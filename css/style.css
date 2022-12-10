@@ -19,7 +19,8 @@ body {
 
 /* MAIN CONTENT */
 .main_heading {
-  font-size: 2rem; }
+  font-size: 2rem;
+  font-weight: 700; }
 
 .main_paragraph p {
   font-size: 1.5rem;
