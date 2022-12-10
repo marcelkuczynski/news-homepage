@@ -1,0 +1,23 @@
+@media only screen and (min-width: 1000px) {
+    .header {
+        padding-bottom: 0;
+    }
+    .header_nav_hamburger,
+    .header_nav_mobile {
+        display: none;
+    }
+    .header_nav_desktop {
+        display: block;
+
+        a {
+            text-decoration: none;
+            padding-right: 3rem;
+            color: $dark-grayish-blue;
+            font-size: 1.75rem;
+        }
+        a:hover {
+            color: $soft-red;
+            transition: 0.2s ease;
+        }
+    }
+}

@@ -1,0 +1,46 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+
+.header_nav_desktop {
+    display: none;
+}
+
+#header_nav_mobile {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    background-color: $off-white;
+    opacity: 0.95;
+    height: 100vh;
+    z-index: 0;
+    padding-top: 20rem;
+    transition: 0.5s ease-out;
+
+    a {
+        display: block;
+        text-align: left;
+        padding-left: 3rem;
+        margin-bottom: 3rem;
+        text-decoration: none;
+        font-size: 2.5rem;
+        color: $very-dark-blue;
+    }
+}
+
+.header_nav_hamburger,
+.header_nav_hamburger_close {
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+
+.close_hamburger {
+    display: none;
+}
