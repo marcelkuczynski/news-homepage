@@ -265,7 +265,7 @@ body {
 @media only screen and (min-width: 1200px) {
   body {
     padding: 0;
-    padding-top: 10rem; } }
+    padding-top: 3rem; } }
 
 /* MAIN CONTENT */
 @media only screen and (max-width: 1200px) {
